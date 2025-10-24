@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #E6E6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 68%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 10px;
+    background: #633fa5;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 1px 5px 13px 5px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 1px 5px 13px 5px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 1px 5px 13px 5px rgba(0, 0, 0, 0.23);
+}
+
+button:hover {
+    background-color: #55378d;
+}
+
+.erro {
+    color: red;
+    font-size: 12px;
+    height: 15px;
+    display: block;
+}
+
+.sucesso {
+    color: #836FFF;
+    margin-top: 10px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.esquecer-senha-container {
+    margin-top: 3rem;
+}
